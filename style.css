@@ -44,6 +44,7 @@ body {
   flex-direction: column;
   width: 37.5rem;
   align-items: center;
+  padding-top: 8rem;
 }
 
 .nav {
@@ -214,7 +215,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
-  h3 {
+  .title-1 {
     text-transform: uppercase;
     color: var(--color-cyan-600);
     font-size: 1.2rem;
@@ -223,7 +224,7 @@ body {
     text-align: center;
     font-weight: 900;
   }
-  h2 {
+  .title-2 {
     color: var(--color-slate-900);
     font-size: 3.2rem;
     line-height: 110%;
